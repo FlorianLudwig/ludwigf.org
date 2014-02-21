@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ludwigf.org's documentation!
-=======================================
+Welcome to ludwigf.org!
+=======================
 
-Contents:
+Contents: Nothing, yet.
 
 .. toctree::
    :maxdepth: 2
