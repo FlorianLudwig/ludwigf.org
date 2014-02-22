@@ -9,15 +9,15 @@ My place for keeping notes on programming topics.
 Python
 ------
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    python_hooks.rst
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
 
