@@ -4,6 +4,8 @@ Welcome to ludwigf.org!
 My place for keeping notes on programming topics.
 
 
+.. todo::
+  blubb!
 
 
 Python
@@ -13,6 +15,7 @@ Python
 
    python_hooks.rst
 
+   python_js.rst
 
 .. Indices and tables
 .. ==================
