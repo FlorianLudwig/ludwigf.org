@@ -4,10 +4,6 @@ Welcome to ludwigf.org!
 My place for keeping notes on programming topics.
 
 
-.. todo::
-  blubb!
-
-
 Python
 ------
 .. toctree::
