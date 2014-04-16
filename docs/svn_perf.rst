@@ -28,9 +28,9 @@ Client Machine
 
   * AV deactivated
   * IPv6 deactivated
-  * Windows file indexing service deactivated
+  * Windows file indexing service deactivated [`1 <http://tortoisesvn.tigris.org/faq.html#cantmove2>`_]
   * Windows auto updates disabled
-  *
+  * Windows Media Player * Service deactivated [`1 <http://answers.microsoft.com/en-us/windows/forum/windows_7-performance/pid-4-high-disk-activity-what-and-why/966bc528-aa9b-4268-b598-3a92e12d3800>`_]
 
 
 Test Results
@@ -46,12 +46,12 @@ All tests where run twice and the better result taken.
 | Method     |  time svn co ...  | PS Measure-Command { | Trained Human    |
 |            |  > /dev/null      | svn co ... > $null } | with stopwatch   |
 +------------+-------------------+----------------------+------------------+
-| ext4       |         1m 16  s  |            --        |       TBD        |
+| ext4       |         1m 16s    |            --        |       TBD        |
 +------------+-------------------+----------------------+------------------+
 | NTFS       |         3m 29s *  |            9m 19s *  |       TBD        |
 +------------+-------------------+----------------------+------------------+
 
-[*] For the NTF test
+[*] Same partition
 
 
 The repositoty checkout
