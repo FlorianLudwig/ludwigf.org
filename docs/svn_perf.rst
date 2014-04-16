@@ -8,7 +8,7 @@ To make that a quantitative statement a test as follows was conducted.
 Server Setup
 ------------
 
-svn serv command used to (as recommended in the `svn book <http://svnbook.red-bean.com/en/1.7/svn.serverconfig.optimization.html>`_)::
+svn serv command used (as recommended in the `svn book <http://svnbook.red-bean.com/en/1.7/svn.serverconfig.optimization.html>`_)::
 
     svnserve -d --memory-cache-size 2048  -r /srv/svn_repos/ --cache-txdeltas yes --cache-fulltexts yes -c 0
 
@@ -22,7 +22,7 @@ Client Machine
 
   * Kernel 3.13.8
   * ext4: journaling enabled (rw,relatime,data=ordered)
-  * NTFS: type fuseblk (rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096
+  * NTFS: type fuseblk (rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096)
 
  * Windows 7, 64 bit
 
