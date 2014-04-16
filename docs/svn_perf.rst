@@ -19,6 +19,10 @@ Client Machine
  * checkout to HDD not SSD
  * 1 GBit LAN to server
  * Linux, Fedora 20 64 bit
+
+  * ext4 with journaling enabled
+  * mount options: rw,relatime,data=ordered
+
  * Windows 7, 64 bit
 
   * AV deactivated
@@ -29,23 +33,22 @@ Client Machine
 Test Results
 ------------
 
+All tests where run twice and the better result taken.
 
 +------------+-------------------+----------------------+------------------+
 |            | Linux commandline | Windows commandline  | Windows GUI      |
 +------------+-------------------+----------------------+------------------+
 | Version    |  1.8.8 (r1568071) |1.8.6.254 tortoise    |       TBD        |
 +------------+-------------------+----------------------+------------------+
-| Method     |  time svn co ...  | PS Measure-Command { |       TBD        |
-|            |  > /dev/null      | svn co ... > $null } |                  |
+| Method     |  time svn co ...  | PS Measure-Command { | Trained Human    |
+|            |  > /dev/null      | svn co ... > $null } | with stopwatch   |
 +------------+-------------------+----------------------+------------------+
-| ext4       |           1m 23s  |            --        |       TBD        |
+| ext4       |           1m 16s  |            --        |       TBD        |
 +------------+-------------------+----------------------+------------------+
-| NYTS       |           4m 20s  |             9m 19s   |       TBD        |
+| NTFS       |           3m 29s  |             9m 19s   |       TBD        |
 +------------+-------------------+----------------------+------------------+
 
 
-Interpretation: The slower checkout times on Windows compared to Windows are observed several times as documented on different forums and mailing lists.
-One
 
 
 The repositoty checkout
