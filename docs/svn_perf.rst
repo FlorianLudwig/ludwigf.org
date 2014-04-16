@@ -20,14 +20,17 @@ Client Machine
  * 1 GBit LAN to server
  * Linux, Fedora 20 64 bit
 
-  * ext4 with journaling enabled
-  * mount options: rw,relatime,data=ordered
+  * Kernel 3.13.8
+  * ext4: journaling enabled (rw,relatime,data=ordered)
+  * NTFS: type fuseblk (rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096
 
  * Windows 7, 64 bit
 
   * AV deactivated
   * IPv6 deactivated
   * Windows file indexing service deactivated
+  * Windows auto updates disabled
+  *
 
 
 Test Results
@@ -43,12 +46,12 @@ All tests where run twice and the better result taken.
 | Method     |  time svn co ...  | PS Measure-Command { | Trained Human    |
 |            |  > /dev/null      | svn co ... > $null } | with stopwatch   |
 +------------+-------------------+----------------------+------------------+
-| ext4       |           1m 16s  |            --        |       TBD        |
+| ext4       |         1m 16  s  |            --        |       TBD        |
 +------------+-------------------+----------------------+------------------+
-| NTFS       |           3m 29s  |             9m 19s   |       TBD        |
+| NTFS       |         3m 29s *  |            9m 19s *  |       TBD        |
 +------------+-------------------+----------------------+------------------+
 
-
+[*] For the NTF test
 
 
 The repositoty checkout
