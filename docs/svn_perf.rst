@@ -43,8 +43,8 @@ All tests where run twice and the better result taken.
 +------------+-------------------+----------------------+------------------+
 | Version    |  1.8.8 (r1568071) |1.8.6.254 tortoise    |       TBD        |
 +------------+-------------------+----------------------+------------------+
-| Method     |  time svn co ...  | PS Measure-Command { | Trained Human    |
-|            |  > /dev/null      | svn co ... > $null } | with stopwatch   |
+| Method     |  time svn --queit | PS Measure-Command { | Trained Human    |
+|            |  co ...           | svn --queit co ... } | with stopwatch   |
 +------------+-------------------+----------------------+------------------+
 | ext4       |         1m 16s    |            --        |       TBD        |
 +------------+-------------------+----------------------+------------------+
@@ -59,3 +59,9 @@ The repositoty checkout
  * Checkout size: 8.9 GB (without .svn folder 4.9 GB)
  * 410 Folders
  * 23,706 files
+
+
+Notes
+-----
+
+ * Using --quiet instead of piping to null does not affect performance [`subversion mailling list <http://mail-archives.apache.org/mod_mbox/subversion-users/201404.mbox/browser>`_]
