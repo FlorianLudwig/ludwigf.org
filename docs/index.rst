@@ -13,10 +13,28 @@ Python
 
    python_js.rst
 
-.. Indices and tables
-.. ==================
+   python_extracting_pdf.rst
 
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+
+
+IDEs
+----
+
+.. toctree::
+   :maxdepth: 1
+
+
+    ide_intellij.rst
+    vim.rst
+
+
+Meta
+----
+
+.. toctree::
+   :maxdepth: 1
+
+   me.rst
+
+
 
