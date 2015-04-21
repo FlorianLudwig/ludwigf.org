@@ -28,6 +28,20 @@ IDEs
     vim.rst
 
 
+
+
+Linux
+-----
+
+.. toctree::
+    :maxdepth: 1
+
+    fedora_setup.rst
+
+
+
+
+
 Meta
 ----
 
@@ -35,6 +49,3 @@ Meta
    :maxdepth: 1
 
    me.rst
-
-
-
