@@ -25,6 +25,7 @@ IDEs
 
 
     ide_intellij.rst
+    ide_atom.rst
     vim.rst
 
 
