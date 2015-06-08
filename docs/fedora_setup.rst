@@ -48,5 +48,5 @@ Other stuff
 -----------
 
  * `Virtual Box <https://www.virtualbox.org/>`_
- * `Google Chrome <http://www.google.com/landing/chrome/>`_
+ * `Google Chrome <https://www.google.de/chrome/browser/desktop/>`_
  * `Seafile <https://copr.fedoraproject.org/coprs/pkerling/seafile/>`_
