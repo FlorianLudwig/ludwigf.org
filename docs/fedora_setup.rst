@@ -10,7 +10,7 @@ General
  * `trim? <http://wiki.ubuntuusers.de/SSD>`_
  * `rpm fusion <http://rpmfusion.org/Configuration>`_
  * `livna <http://rpm.livna.org/>`_ (dvd support)
- * clean_requirements_on_remove=1 under [main] in /etc/yum.conf (`about <http://blog.christophersmart.com/2010/11/11/testing-yums-autoremove-orphaned-deps-feature/>`_)
+ * clean_requirements_on_remove=1 under [main] in /etc/dnf.conf (`about <http://blog.christophersmart.com/2010/11/11/testing-dnfs-autoremove-orphaned-deps-feature/>`_)
 
 
 My usual apps
@@ -31,17 +31,17 @@ My usual apps
 
 Install::
 
-  yum -y install inkscape gimp xournal avidemux-gtk gtk-recordmydesktop audacity-freeworld libdvdread libdvdcss gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-ffmpeg gstreamer-plugins-bad-nonfree htop vim-enhanced xorg-x11-apps tinc powertop iotop screen ack libva-utils libva-freeworld freetype-freeworld gnome-media-apps libtxc_dxtn sshfs pidgin pidgin-otr
+  dnf -y install inkscape gimp xournal avidemux-gtk gtk-recordmydesktop audacity-freeworld libdvdread libdvdcss gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-ffmpeg gstreamer-plugins-bad-nonfree htop vim-enhanced xorg-x11-apps tinc powertop iotop screen ack libva-utils libva-freeworld freetype-freeworld gnome-media-apps libtxc_dxtn sshfs pidgin pidgin-otr
 
 
 Coding Stuff
 ------------
 
 
- * yum -y install git subversion meld regexxer virt-manager gitk
- * yum -y install reinteract python-virtualenv python-virtualenvwrapper python-pip
- * yum -y install mysql-server phpMyAdmin mysql-workbench
- * yum -y install gcc gcc-c++
+ * dnf -y install git subversion meld regexxer virt-manager gitk
+ * dnf -y install reinteract python-virtualenv python-virtualenvwrapper python-pip
+ * dnf -y install mysql-server phpMyAdmin mysql-workbench
+ * dnf -y install gcc gcc-c++
  * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-redhat-centos-or-fedora-linux/
 
 Other stuff
