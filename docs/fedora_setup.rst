@@ -31,7 +31,7 @@ My usual apps
 
 Install::
 
-  dnf -y install inkscape gimp xournal avidemux-gtk gtk-recordmydesktop audacity-freeworld libdvdread libdvdcss gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-ffmpeg gstreamer-plugins-bad-nonfree htop vim-enhanced xorg-x11-apps tinc powertop iotop screen ack libva-utils libva-freeworld freetype-freeworld gnome-media-apps libtxc_dxtn sshfs pidgin pidgin-otr
+  dnf -y install inkscape gimp xournal avidemux-gtk gtk-recordmydesktop audacity-freeworld libdvdread libdvdcss gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-ffmpeg gstreamer-plugins-bad-nonfree htop vim-enhanced xorg-x11-apps tinc powertop iotop screen ack libva-utils libva-freeworld freetype-freeworld gnome-media-apps libtxc_dxtn sshfs
 
 
 Coding Stuff
